@@ -8,7 +8,6 @@ WantedBy=multi-user.target
 
 [Service]
 Type=notify
-EnvironmentFile=/etc/systemd/system/k3s.service.env
 KillMode=process
 Delegate=yes
 # Having non-zero Limit*s causes performance problems due to accounting overhead
@@ -28,5 +27,5 @@ ExecStart=/usr/local/bin/k3s \
         '--disable=traefik,metrics-server,local-storage' \
         '--disable-kube-proxy' \
         '--disable-network-policy' \
+        '--disable-cloud-controller' \
         '--docker' \
-	${K3S_EXEC_OPTIONS}
