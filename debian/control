@@ -33,6 +33,7 @@ Depends:	arptables,
 		ipset,
 		iptables,
 		ipvsadm,
+		kube-router,
 		multus-cni,
 		${misc:Depends},
 		${shlibs:Depends}
