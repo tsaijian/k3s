@@ -28,5 +28,5 @@ ExecStart=/usr/local/bin/k3s \
         '--disable-kube-proxy' \
         '--disable-network-policy' \
         '--disable-cloud-controller' \
-        '--node-name=ix-node' \
+        '--node-name=ix-truenas' \
         '--docker' \
