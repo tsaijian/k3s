@@ -30,3 +30,4 @@ ExecStart=/usr/local/bin/k3s \
         '--disable-cloud-controller' \
         '--node-name=ix-truenas' \
         '--docker' \
+        '--config=/etc/rancher/k3s/flags.yaml' \
