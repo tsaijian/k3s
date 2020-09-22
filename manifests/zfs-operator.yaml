@@ -1639,23 +1639,23 @@ spec:
             type: File
         - name: libzpool
           hostPath:
-            path: /lib/libzpool.so.2.0.0
+            path: /usr/lib/x86_64-linux-gnu/libzpool.so.2.0.0
             type: File
         - name: libzfscore
           hostPath:
-            path: /lib/libzfs_core.so.1.0.0
+            path: /usr/lib/x86_64-linux-gnu/libzfs_core.so.1.0.0
             type: File
         - name: libzfs
           hostPath:
-            path: /lib/libzfs.so.2.0.0
+            path: /usr/lib/x86_64-linux-gnu/libzfs.so.2.0.0
             type: File
         - name: libuutil
           hostPath:
-            path: /lib/libuutil.so.1.0.1
+            path: /usr/lib/x86_64-linux-gnu/libuutil.so.1.0.1
             type: File
         - name: libnvpair
           hostPath:
-            path: /lib/libnvpair.so.1.0.1
+            path: /usr/lib/x86_64-linux-gnu/libnvpair.so.1.0.1
             type: File
         - name: registration-dir
           hostPath:
