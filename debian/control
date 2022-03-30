@@ -20,6 +20,8 @@ Build-Depends:	gcc,
 		python2,
 		libffi-dev,
 		libseccomp-dev,
+		libbtrfs-dev,
+		btrfs-progs,
 		make,
 		debhelper-compat (= 12)
 Standards-Version: 4.4.0
