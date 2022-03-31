@@ -4,6 +4,7 @@ Priority: optional
 Maintainer: Waqar Ahmed <waqar@ixsystems.com>
 Build-Depends:	gcc,
 		golang,
+		gawk,
 		musl-dev,
 		curl,
 		cgroupfs-mount,
